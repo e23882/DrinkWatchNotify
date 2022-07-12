@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Watchdog"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Closed="Window_Closed">
+        Title="MainWindow" Height="450" Width="800" > 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="10"/>
@@ -13,6 +13,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="10"/>
+
         </Grid.RowDefinitions>
         <Button Content="Test" Command="{Binding ButtonClickCommand}" Grid.Row="1"/>
     </Grid>
